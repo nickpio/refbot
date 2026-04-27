@@ -17,10 +17,12 @@ Refbot is a Discord bot for finding video references for animation, visual effec
    pip install -e ".[dev]"
    ```
 
-3. Copy the environment template and fill in secrets:
+3. Create a `.env` file with your secrets:
 
    ```bash
-   cp .env.example .env
+   DISCORD_TOKEN=...
+   YOUTUBE_API_KEY=...
+   DISCORD_GUILD_ID=...
    ```
 
    Required variables:
